@@ -79,7 +79,7 @@ public class MonthlyStatsHandler implements RequestHandler<Object, String> {
         int visitors = stats.get("visitors").get("value");
         int visits = stats.get("visits").get("value");
 
-        return String.format("This is an automated post for my Personal website's monthly stats executed by AWS Lambda function using data from Umami Cloud:\n" +
+        return String.format("Latest monthly stats for my personal website(https://pgrudra.vercel.app):\n" +
                         "📊 Pageviews: %d\n" +
                         "👥 Unique visitors: %d\n" +
                         "🔄 Total visits: %d",
